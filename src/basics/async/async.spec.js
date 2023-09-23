@@ -41,7 +41,7 @@ describe("Ajax: GET", () => {
       {
         userId: 1,
         id: 1,
-        text: 'WLYAPA'
+        text: "WLYAPA",
       },
     ];
 

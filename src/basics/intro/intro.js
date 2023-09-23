@@ -1,5 +1,4 @@
 const expect = (value) => {
-   
   return {
     toBe: exp => {
       if (exp === value ) {
@@ -14,7 +13,6 @@ const expect = (value) => {
 const sum = (a,b) => a+b
 const nativeNull = () => null
 
-
-// expect(sum(41,1)).toBe(42)
+// expect(sum(41,1)).toBe(42) // self test
 
 module.exports = {sum, nativeNull}

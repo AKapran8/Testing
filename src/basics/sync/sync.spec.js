@@ -60,17 +60,16 @@ describe("Lodash: groupBy: ", () => {
   });
 
   test("Should group items by length", () => {
-    const array = ['one', 'two', 'three'];
+    const array = ["one", "two", "three"];
     const result = {
-      3: ['one', 'two'],
-      5: ['three']
+      3: ["one", "two"],
+      5: ["three"],
     };
 
-    expect(_.groupBy(array, 'length')).toEqual(result);
+    expect(_.groupBy(array, "length")).toEqual(result);
   });
 
   test("Should be not return an arr", () => {
-    expect(_.groupBy([], Math.trunc)).not.toBeInstanceOf(Array)
+    expect(_.groupBy([], Math.trunc)).not.toBeInstanceOf(Array);
   });
-
 });

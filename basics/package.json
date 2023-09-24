@@ -1,8 +1,6 @@
 {
   "name": "jest",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -13,7 +11,7 @@
     "testing",
     "unit testing"
   ],
-  "author": "",
+  "author": "Andrii Kapran",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.5",

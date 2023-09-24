@@ -1,15 +1,17 @@
 {
-  "name": "async",
+  "name": "mock",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest --run"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrii Kapran",
   "license": "ISC",
   "dependencies": {
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "vitest": "^0.9.2"
